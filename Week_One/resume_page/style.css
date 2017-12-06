@@ -13,4 +13,16 @@ h3 {
 }
 .holla {
   padding-top: 20px;
+  }
+.topnav {
+  display: block;
+  width: auto;
+}
+.cols {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+a {
+  text-decoration: none
 }
