@@ -12,3 +12,6 @@ Part 1 - Github
 1. git branch branch name
 2. git checkout branch filename
 3. You'd use a branch other than master to work on an individual feature or do a bug fix.
+
+1. You'd use git merge when someone has checked out code. made additions/changes, and submitted a pull request. You'd verify that the code looks good and merge it.
+2. git push origin master.
