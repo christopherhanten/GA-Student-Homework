@@ -8,3 +8,7 @@ Part 1 - Github
 3. git checkout
 4. I do not know the answer to this question (maybe it delineates that the action is in the past?)
 5. Because you created an error in the file that you most recently committed or committed the wrong file.
+
+1. git branch branch name
+2. git checkout branch filename
+3. You'd use a branch other than master to work on an individual feature or do a bug fix.
