@@ -3,36 +3,37 @@
 for (let i=1; i <= 20; i++) {
   console.log(i);
   }
-*/
+
 //Get Even
 /*for (let w = 0; w <=200; w++){
   if (w % 2 == 0)
     console.log(w);
   }
-*/
+
 //Excited Kitten
 /*
 for (let kitteh = 1; kitteh <= 20; kitteh++) {
   console.log("Love me, pet me! HSSSSSS!");
 }
-*/
+
 //I gave this one about 40 minutes. I cannot figure it out!
-/*
-function Math.random();
+//I came back for another 30 miutes after figuring out the ninja turtles one. erg!
+
+
 var sayings = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
-var randomSayings = sayings[Math.floor(Math.random() (sayings[1] [2] [3]))];
-for (let kat = 1; kat <= 20; kat++){
-  if (kat % 2 == 0) //Math.random
-  console.log (randomSayings);
+for (s = 0; s <= 20 && s % 2 == 0; s++) {
+  if (sayings[s].Math.floor(Math.random()) = sayings[s]);
+  console.log (sayings[s]);
 }
-*/
-//Fizz Buzz
+
 /*
+//Fizz Buzz
+
 for (let c = 1; c <= 100; c++) {
   console.log(c);
 }
-*/
-/*
+
+
 for (let c = 1; c <= 100; c++) {
   if (c % 3 ==0)
   console.log("Fizz");
@@ -57,10 +58,33 @@ thom[0] = "Gameboy";
 karolin[1] = 17;
 matt[2] = "Gotham City";
 kristyn[2] = "Brookyln";
-*/
+
+
 //Yell at the Ninja Turtles
 var ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for (b = 0; b < ninjaTurtles.length; b++) {
   ninjaTurtles[b] = ninjaTurtles[b].toUpperCase();
   console.log(ninjaTurtles[b]);
 }
+
+//Return of the Closets
+
+const kristynsShoe = "left shoe"
+delete kristynsCloset[0]
+thomsCloset[2].push(kristynsShoe);
+
+var kristynOutfitOne = [kristynsCloset[3], kristynsCloset[4], kristynsCloset[1]];
+var kristynOutfitTwo = [kristynsCloset[2], kristynsCloset[5], kristynsCloset[6]];
+var kristynOutfitThree = [kristynsCloset[3], kristynsCloset[4], kristynsCloset[5]];
+
+var thomOutfitOne = [thomsCloset[0][0], thomsCloset[1][1], thomsCloset[2][2]];
+var thomOutfitTwo = [thomsCloset[0][1], thomsCloset[1][0], thomsCloset[2][0]];
+var thomOutfitThree = [thomsCloset[0][3], thomsCloset[1][0], thomsCloset[2][2]];
+
+console.log("Thom will be wearing " + thomOutfitOne + ".");
+console.log("Thom will be wearing " + thomOutfitTwo + ".");
+console.log("Thom will be wearing " + thomOutfitThree + ".");
+
+console.log("Kristyn will be wearing " + kristynOutfitOne + ".");
+console.log("Kristyn will be wearing " + kristynOutfitTwo + ".");
+console.log("Kristyn will be wearing " + kristynOutfitThree + ".");
