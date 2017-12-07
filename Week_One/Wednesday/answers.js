@@ -32,7 +32,7 @@ for (let c = 1; c <= 100; c++) {
   console.log(c);
 }
 */
-
+/*
 for (let c = 1; c <= 100; c++) {
   if (c % 3 ==0)
   console.log("Fizz");
@@ -45,3 +45,15 @@ for (let v = 1; v <= 100; v++) {
   if (v % 3 ==0 && v % 5 == 0)
   console.log("FizzBuzz");
 }
+*/
+//Getting to Know you
+//1.
+const thom = ["Thom", 1000, "Christchurch"]
+const karolin = ["Karolin", 16, "New York"]
+const kristyn = ["Kristyn", 5, "Pittsburgh"]
+const matt = ["Matt H", 186, "Philadelphia"]
+
+thom[0] = "Gameboy";
+karolin[1] = 17;
+matt[2] = "Gotham City";
+kristyn[2] = "Brookyln";
