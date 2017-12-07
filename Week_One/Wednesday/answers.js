@@ -26,11 +26,22 @@ for (let kat = 1; kat <= 20; kat++){
   console.log (randomSayings);
 }
 */
-//Getting to Know you
-//1.
-const thom = ["Thom", 1000, "Christchurch"]
-const karolin = ["Karolin", 16, "New York"]
-const kristyn = ["Kristyn", 5, "Pittsburgh"]
-const matt = ["Matt H", 186, "Philadelphia"]
+//Fizz Buzz
+/*
+for (let c = 1; c <= 100; c++) {
+  console.log(c);
+}
+*/
 
-thom[0] = "Gameboy";
+for (let c = 1; c <= 100; c++) {
+  if (c % 3 ==0)
+  console.log("Fizz");
+}
+for (let p = 1; p <= 100; p++) {
+  if (p % 5 ==0)
+  console.log("Buzz");
+}
+for (let v = 1; v <= 100; v++) {
+  if (v % 3 ==0 && v % 5 == 0)
+  console.log("FizzBuzz");
+}
