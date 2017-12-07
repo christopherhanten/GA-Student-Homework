@@ -45,7 +45,7 @@ for (let v = 1; v <= 100; v++) {
   if (v % 3 ==0 && v % 5 == 0)
   console.log("FizzBuzz");
 }
-*/
+
 //Getting to Know you
 //1.
 const thom = ["Thom", 1000, "Christchurch"]
@@ -57,3 +57,10 @@ thom[0] = "Gameboy";
 karolin[1] = 17;
 matt[2] = "Gotham City";
 kristyn[2] = "Brookyln";
+*/
+//Yell at the Ninja Turtles
+var ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (b = 0; b < ninjaTurtles.length; b++) {
+  ninjaTurtles[b] = ninjaTurtles[b].toUpperCase();
+  console.log(ninjaTurtles[b]);
+}
